@@ -1,0 +1,16 @@
+{
+    "production": {
+        "urlAddPort": true,
+        "email": true,
+        "db": {
+            "username": "<heroku-postgresのusername>",
+            "password": "<heroku-postgresのpass>",
+            "database": "<heroku-postgresのdb>",
+            "host": "<heroku-postgresのawsホスト>",
+            "port": "5432",
+            "dialect": "postgres",
+            "ssl": true
+        },
+        "imageUploadType": "imgur"
+    }
+}
